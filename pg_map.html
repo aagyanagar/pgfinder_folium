@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f4bea7a58f13dfab247c669da26eb216 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f4bea7a58f13dfab247c669da26eb216" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f4bea7a58f13dfab247c669da26eb216 = L.map(
+                "map_f4bea7a58f13dfab247c669da26eb216",
+                {
+                    center: [23.0225, 72.5714],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4eba6b5ba74cd418a46e38c7e2be5d86 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4eba6b5ba74cd418a46e38c7e2be5d86.addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+            var marker_c5d1e5588ae053adaca1ad3641c4839c = L.marker(
+                [23.030357, 72.517845],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_7296755e71fa657f6e4609243fe819ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76af4a66a0715ea4247990f49a8a215e = $(`<div id="html_76af4a66a0715ea4247990f49a8a215e" style="width: 100.0%; height: 100.0%;">Induben Dhorajiwala Girls PG Satellite Road<br>Satellite<br>Price: 8000<br>Wifi: Yes</div>`)[0];
+                popup_7296755e71fa657f6e4609243fe819ef.setContent(html_76af4a66a0715ea4247990f49a8a215e);
+            
+        
+
+        marker_c5d1e5588ae053adaca1ad3641c4839c.bindPopup(popup_7296755e71fa657f6e4609243fe819ef)
+        ;
+
+        
+    
+    
+            var marker_e4fcaa7ce73501de8ef3d6933538a0d9 = L.marker(
+                [23.033179, 72.516752],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_e307aaa49fb0bf4040828731f867f470 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e17a6d7ab5bb4336866393371081f09 = $(`<div id="html_4e17a6d7ab5bb4336866393371081f09" style="width: 100.0%; height: 100.0%;">Stay Zone PG Shivranjani<br>Shivranjani<br>Price: 5000<br>Wifi: Yes</div>`)[0];
+                popup_e307aaa49fb0bf4040828731f867f470.setContent(html_4e17a6d7ab5bb4336866393371081f09);
+            
+        
+
+        marker_e4fcaa7ce73501de8ef3d6933538a0d9.bindPopup(popup_e307aaa49fb0bf4040828731f867f470)
+        ;
+
+        
+    
+    
+            var marker_d6d0755f7ae12dadb9f1586c2d9c0f18 = L.marker(
+                [23.035007, 72.529324],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_eab5f8ec64b09e1e22b410ced9a4328a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9aa1ce2fca49dd390b818efab3de1d78 = $(`<div id="html_9aa1ce2fca49dd390b818efab3de1d78" style="width: 100.0%; height: 100.0%;">Gajanand Boys PG Near IIM Bridge<br>Vastrapur<br>Price: 7500<br>Wifi: Yes</div>`)[0];
+                popup_eab5f8ec64b09e1e22b410ced9a4328a.setContent(html_9aa1ce2fca49dd390b818efab3de1d78);
+            
+        
+
+        marker_d6d0755f7ae12dadb9f1586c2d9c0f18.bindPopup(popup_eab5f8ec64b09e1e22b410ced9a4328a)
+        ;
+
+        
+    
+    
+            var marker_c2d349032e5b7421c5ed840ae7fda340 = L.marker(
+                [22.995765, 72.618074],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_37ed9e87b8553051a776d6744c48b239 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e81b7e1dafe0f21a55b155346f5e68c9 = $(`<div id="html_e81b7e1dafe0f21a55b155346f5e68c9" style="width: 100.0%; height: 100.0%;">Tulsi PG For Boys Nr Dakshini Underpass<br>Khokhra<br>Price: 7700<br>Wifi: Yes</div>`)[0];
+                popup_37ed9e87b8553051a776d6744c48b239.setContent(html_e81b7e1dafe0f21a55b155346f5e68c9);
+            
+        
+
+        marker_c2d349032e5b7421c5ed840ae7fda340.bindPopup(popup_37ed9e87b8553051a776d6744c48b239)
+        ;
+
+        
+    
+    
+            var marker_9dd3eb9e794ff3b1e49afc415e4b3d8b = L.marker(
+                [23.038063, 72.633765],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_0c1d3aee21573b22f7f4276953c9b50a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60a1b531f1140bc7b36d7f09f2d39922 = $(`<div id="html_60a1b531f1140bc7b36d7f09f2d39922" style="width: 100.0%; height: 100.0%;">Sardamall Thakkar Nagar PG India Colony<br>Bapunagar<br>Price: 3000<br>Wifi: No</div>`)[0];
+                popup_0c1d3aee21573b22f7f4276953c9b50a.setContent(html_60a1b531f1140bc7b36d7f09f2d39922);
+            
+        
+
+        marker_9dd3eb9e794ff3b1e49afc415e4b3d8b.bindPopup(popup_0c1d3aee21573b22f7f4276953c9b50a)
+        ;
+
+        
+    
+    
+            var marker_f3bc767a4129692d7c7251967b4ced55 = L.marker(
+                [23.044511, 72.571501],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_414c65196d172bf7c61681311b528a89 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f842c8f2165ff983b79f2337b93672ad = $(`<div id="html_f842c8f2165ff983b79f2337b93672ad" style="width: 100.0%; height: 100.0%;">The Rivera Homes Girls PG Nr Navgujarat College<br>Usmanpura<br>Price: 7500<br>Wifi: Yes</div>`)[0];
+                popup_414c65196d172bf7c61681311b528a89.setContent(html_f842c8f2165ff983b79f2337b93672ad);
+            
+        
+
+        marker_f3bc767a4129692d7c7251967b4ced55.bindPopup(popup_414c65196d172bf7c61681311b528a89)
+        ;
+
+        
+    
+    
+            var marker_f839aaf20d833be751af8904bd4479f7 = L.marker(
+                [23.042067, 72.530835],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_2052fcd72a6d83cf30c1cb2ed997839e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3ef94c55cbd482b832a3fd4a185a833 = $(`<div id="html_d3ef94c55cbd482b832a3fd4a185a833" style="width: 100.0%; height: 100.0%;">Sorath Boys PG Sonal Cross Rd<br>Gurukul<br>Price: 8500<br>Wifi: Yes</div>`)[0];
+                popup_2052fcd72a6d83cf30c1cb2ed997839e.setContent(html_d3ef94c55cbd482b832a3fd4a185a833);
+            
+        
+
+        marker_f839aaf20d833be751af8904bd4479f7.bindPopup(popup_2052fcd72a6d83cf30c1cb2ed997839e)
+        ;
+
+        
+    
+    
+            var marker_7c63f9d9d189d0a2c5ded016d155fa5d = L.marker(
+                [23.112049, 72.576676],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_7316f5ebbf3d2974487575e3b3feb420 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_486a8b37d66b191e7c0656615fd01a2f = $(`<div id="html_486a8b37d66b191e7c0656615fd01a2f" style="width: 100.0%; height: 100.0%;">Trupti Boys Hostel New CG Road<br>Chandkheda<br>Price: 7500<br>Wifi: No</div>`)[0];
+                popup_7316f5ebbf3d2974487575e3b3feb420.setContent(html_486a8b37d66b191e7c0656615fd01a2f);
+            
+        
+
+        marker_7c63f9d9d189d0a2c5ded016d155fa5d.bindPopup(popup_7316f5ebbf3d2974487575e3b3feb420)
+        ;
+
+        
+    
+    
+            var marker_137d633dead20347e0f3ed8e1c8ea658 = L.marker(
+                [23.113782, 72.541187],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_79d7a6292ea333beed13fa2380edea77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_628dd4e17d25a995ed674ac21d776dd7 = $(`<div id="html_628dd4e17d25a995ed674ac21d776dd7" style="width: 100.0%; height: 100.0%;">Manmandir Boys And Girls Hostel Opp Nirma University<br>Gota<br>Price: 7000<br>Wifi: Yes</div>`)[0];
+                popup_79d7a6292ea333beed13fa2380edea77.setContent(html_628dd4e17d25a995ed674ac21d776dd7);
+            
+        
+
+        marker_137d633dead20347e0f3ed8e1c8ea658.bindPopup(popup_79d7a6292ea333beed13fa2380edea77)
+        ;
+
+        
+    
+    
+            var marker_6f2e4e1b7674d063ab35dd0b581c4160 = L.marker(
+                [23.033489, 72.532301],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_ca34c688f6cefd20200ac008c65c2596 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c696975d00a2ea1267172baaabe7377 = $(`<div id="html_6c696975d00a2ea1267172baaabe7377" style="width: 100.0%; height: 100.0%;">Oasis Girls And Boys PG Opp LG Campus Gate<br>Sarkhej<br>Price: 11000<br>Wifi: Yes</div>`)[0];
+                popup_ca34c688f6cefd20200ac008c65c2596.setContent(html_6c696975d00a2ea1267172baaabe7377);
+            
+        
+
+        marker_6f2e4e1b7674d063ab35dd0b581c4160.bindPopup(popup_ca34c688f6cefd20200ac008c65c2596)
+        ;
+
+        
+    
+    
+            var marker_e509ef8f1847183a966e81d9ca22e4bc = L.marker(
+                [23.049736, 72.511726],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_481969e2164a665117310a0d1492866a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f8da11f9a2cc42bd385701109e38da7 = $(`<div id="html_7f8da11f9a2cc42bd385701109e38da7" style="width: 100.0%; height: 100.0%;">Durga PG NR Udgam School<br>Thaltej<br>Price: 6000<br>Wifi: Yes</div>`)[0];
+                popup_481969e2164a665117310a0d1492866a.setContent(html_7f8da11f9a2cc42bd385701109e38da7);
+            
+        
+
+        marker_e509ef8f1847183a966e81d9ca22e4bc.bindPopup(popup_481969e2164a665117310a0d1492866a)
+        ;
+
+        
+    
+    
+            var marker_641175a81ecfbf221502195cf5614fee = L.marker(
+                [23.039444, 72.5125],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_d8847128d4fe9f9123a1e266659a40b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27bf5fee1cff8967148eeb3428259984 = $(`<div id="html_27bf5fee1cff8967148eeb3428259984" style="width: 100.0%; height: 100.0%;">Royal Homes Girls Hostel Swati Bunglow Garden<br>Bodakdev<br>Price: 7000<br>Wifi: Yes</div>`)[0];
+                popup_d8847128d4fe9f9123a1e266659a40b6.setContent(html_27bf5fee1cff8967148eeb3428259984);
+            
+        
+
+        marker_641175a81ecfbf221502195cf5614fee.bindPopup(popup_d8847128d4fe9f9123a1e266659a40b6)
+        ;
+
+        
+    
+    
+            var marker_af91e83960ca7bbfb4568339b1c87206 = L.marker(
+                [23.008177, 72.513787],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_e76b98a4b7993245a6a1d930cb5f7bd2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22368fea87140441681c05e2f78495a6 = $(`<div id="html_22368fea87140441681c05e2f78495a6" style="width: 100.0%; height: 100.0%;">Pearls Aathithya Boys PG Anand Nagar Cross Road<br>Prahladnagar<br>Price: 5000<br>Wifi: No</div>`)[0];
+                popup_e76b98a4b7993245a6a1d930cb5f7bd2.setContent(html_22368fea87140441681c05e2f78495a6);
+            
+        
+
+        marker_af91e83960ca7bbfb4568339b1c87206.bindPopup(popup_e76b98a4b7993245a6a1d930cb5f7bd2)
+        ;
+
+        
+    
+    
+            var marker_552a83294d571ce8cb7fc320cad5fb53 = L.marker(
+                [23.036406, 72.561066],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_69238bac653b6a5e5ed8a3dd0d7b5ea6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d0e95b32af104c6efb4d5fcc16c218c = $(`<div id="html_7d0e95b32af104c6efb4d5fcc16c218c" style="width: 100.0%; height: 100.0%;">Mamta Girls Hostel Opp Sagun Complex<br>Navrangpura<br>Price: 4200<br>Wifi: No</div>`)[0];
+                popup_69238bac653b6a5e5ed8a3dd0d7b5ea6.setContent(html_7d0e95b32af104c6efb4d5fcc16c218c);
+            
+        
+
+        marker_552a83294d571ce8cb7fc320cad5fb53.bindPopup(popup_69238bac653b6a5e5ed8a3dd0d7b5ea6)
+        ;
+
+        
+    
+    
+            var marker_1288ed1aabead96c24a339b5179b8834 = L.marker(
+                [23.084591, 72.588501],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_d7eb7cc6d65d673c8e12d81def60c008 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2aa924df1b4649df0fa39c74e2f1ce5 = $(`<div id="html_c2aa924df1b4649df0fa39c74e2f1ce5" style="width: 100.0%; height: 100.0%;">Metro Boys And Girls PG RTO Road<br>Sabarmati<br>Price: 5000<br>Wifi: Yes</div>`)[0];
+                popup_d7eb7cc6d65d673c8e12d81def60c008.setContent(html_c2aa924df1b4649df0fa39c74e2f1ce5);
+            
+        
+
+        marker_1288ed1aabead96c24a339b5179b8834.bindPopup(popup_d7eb7cc6d65d673c8e12d81def60c008)
+        ;
+
+        
+    
+    
+            var marker_9b2835d69d2f18f7163731426f5f36fa = L.marker(
+                [22.99617, 72.599586],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_601847cb371de7d8250e161baaa3e919 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87abb8ca336d3dd8a99bfb3b2467352d = $(`<div id="html_87abb8ca336d3dd8a99bfb3b2467352d" style="width: 100.0%; height: 100.0%;">Neelkanth Girls And Boys PG<br>Maninagar<br>Price: 7500<br>Wifi: Yes</div>`)[0];
+                popup_601847cb371de7d8250e161baaa3e919.setContent(html_87abb8ca336d3dd8a99bfb3b2467352d);
+            
+        
+
+        marker_9b2835d69d2f18f7163731426f5f36fa.bindPopup(popup_601847cb371de7d8250e161baaa3e919)
+        ;
+
+        
+    
+    
+            var marker_aec9849580d80619a4af25e3116b7231 = L.marker(
+                [23.094167, 72.596111],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_338c940afe0bbcdd30a6537316ddee30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89757fbbf709bf631253f38732d93e1f = $(`<div id="html_89757fbbf709bf631253f38732d93e1f" style="width: 100.0%; height: 100.0%;">Shreeji Girls PG Motera Metro Station<br>Motera<br>Price: 9000<br>Wifi: Yes</div>`)[0];
+                popup_338c940afe0bbcdd30a6537316ddee30.setContent(html_89757fbbf709bf631253f38732d93e1f);
+            
+        
+
+        marker_aec9849580d80619a4af25e3116b7231.bindPopup(popup_338c940afe0bbcdd30a6537316ddee30)
+        ;
+
+        
+    
+    
+            var marker_ebcdd2614894a225ca6d966781bb9765 = L.marker(
+                [23.113782, 72.541187],
+                {
+}
+            ).addTo(map_f4bea7a58f13dfab247c669da26eb216);
+        
+    
+        var popup_54a8526cee73737bae488626acf87f8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cc32ac581cd784ce2e0f971e33bd97a = $(`<div id="html_2cc32ac581cd784ce2e0f971e33bd97a" style="width: 100.0%; height: 100.0%;">Thirthankar PG Vandematram<br>Gota<br>Price: 7500<br>Wifi: Yes</div>`)[0];
+                popup_54a8526cee73737bae488626acf87f8e.setContent(html_2cc32ac581cd784ce2e0f971e33bd97a);
+            
+        
+
+        marker_ebcdd2614894a225ca6d966781bb9765.bindPopup(popup_54a8526cee73737bae488626acf87f8e)
+        ;
+
+        
+    
+</script>
+</html>

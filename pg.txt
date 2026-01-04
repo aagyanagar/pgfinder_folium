@@ -1,0 +1,18 @@
+{"name": "Induben Dhorajiwala Girls PG Satellite Road,Satellite","price":8000,"wifi":yes,"lat":23.030357, "lon":72.517845},
+{"name": "Stay Zone PG Shivranjani,Shivranjani","price":5000,"wifi":yes,"lat":23.033179, "lon":72.516752},
+{"name": "Gajanand Boys PG Near IIM Bridge,Vastrapur","price":7500,"wifi":yes, "lat":23.035007, "lon":72.529324},
+{"name": "Tulsi PG For Boys Nr Dakshini Underpass,Khokhra","price":7700,"wifi":yes, "lat":22.995765, "lon":72.618074},
+{"name": "Sardamall Thakkar Nagar PG India Colony,Bapunagar","price":3000,"wifi":no, "lat":23.038063, "lon":72.633765},
+{"name": "The Rivera Homes Girls PG Nr Navgujarat College,Usmanpura","price":7500,"wifi":yes, "lat":23.044511, "lon":72.571501},
+{"name": "Sorath Boys PG Sonal Cross Rd,Gurukul","price":8500,"wifi":yes, "lat":23.042067, "lon":72.530835},
+{"name": "Trupti Boys Hostel New CG Road,Chandkheda","price":7500,"wifi":no, "lat":23.112049, "lon":72.576676},
+{"name": "Manmandir Boys And Girls Hostel Opp Nirma University,Gota","price":7000,"wifi":yes, "lat":23.113782, "lon":72.541187},
+{"name": "Oasis Girls And Boys PG Opp LG Campus Gate,Sarkhej","price":11000,"wifi":yes, "lat":23.033489, "lon":72.532301},
+{"name": "Durga PG NR Udgam School,Thaltej",price":6000,"wifi":yes, "lat":23.049736, "lon":72.511726},
+{"name": "Royal Homes Girls Hostel Swati Bunglow Garden,Bodakdev","price":7000,"wifi":yes, "lat":23.039444, "lon":72.512500},
+{"name": "Pearls Aathithya Boys PG Anand Nagar Cross Road,Prahladnagar","price":5000,"wifi":no, "lat":23.008177, "lon":72.513787},
+{"name": "Mamta Girls Hostel Opp Sagun Complex,Navrangpura","price":4200,"wifi":no, "lat":23.036406, "lon":72.561066},
+{"name": "Metro Boys And Girls PG RTO Road,Sabarmati","price":5000,"wifi":yes, "lat":23.084591, "lon":72.588501},
+{"name": "Neelkanth Girls And Boys PG,Maninagar","price":7500,"wifi":yes, "lat":22.996170, "lon":72.599586},
+{"name": "Shreeji Girls PG Motera Metro Station,Motera","price":9000,"wifi":yes, "lat":23.094167, "lon":72.596111}
+{"name": "Thirthankar PG Vandematram,Gota","price":7500,"wifi":yes, "lat":23.113782, "lon":72.541187}
